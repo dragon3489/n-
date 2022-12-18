@@ -5,14 +5,14 @@ int main()
 	int ans,add;
 	while(1)
 	{
-		printf("ÇëÊäÈëÒ»¸öÊı,ÊäÈës½áÊøÑ­»·£º\n");
+		printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°,è¾“å…¥sç»“æŸå¾ªç¯ï¼š\n");
 		scanf("%d",&n);
 		if(getchar()=='s')
 			break;
 		for(i=1,ans=1,add=0;i<=n;i++)
 		{
-			ans=ans*i;
-			add+=ans;
+			ans=ans*i;		//nçš„é˜¶ä¹˜
+			add+=ans;		//é˜¶ä¹˜çš„ç´¯åŠ 
 		}
 		printf("%d\n%d\n",ans,add);
 	}
@@ -25,7 +25,7 @@ int main()
 //	int ans;
 //	while(1)
 //	{
-//		printf("ÇëÊäÈëÒ»¸öÊı,ÊäÈës½áÊøÑ­»·£º\n");
+//		printf("è¯·è¾“å…¥ä¸€ä¸ªæ•°,è¾“å…¥sç»“æŸå¾ªç¯ï¼š\n");
 //		scanf("%d",&n);
 //		if(getchar()=='s')
 //			break;
@@ -33,6 +33,6 @@ int main()
 //		{
 //			ans=ans*i;
 //		}
-//		printf("%dµÄ½×³ËÎª:%d\n",n,ans);
+//		printf("%dçš„é˜¶ä¹˜ä¸º:%d\n",n,ans);
 //	}
 //}
